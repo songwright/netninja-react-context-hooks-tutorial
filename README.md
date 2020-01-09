@@ -2,10 +2,6 @@
 
 Notes on The Net Ninja’s Context Hooks Tutorial on YouTube.
 
-Select a branch to to see the notes for each lesson.
+## Lesson 6 - Updating Context Data
 
-Repository files:
-
-https://github.com/iamshaunjp/react-context-hooks
-
-React Context Docs - https://reactjs.org/docs/context.html
+YouTube link: https://youtu.be/bJXAHHpyVes
