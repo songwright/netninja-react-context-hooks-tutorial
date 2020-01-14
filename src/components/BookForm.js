@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react';
-import BookContext from '../contexts/BookContext';
+import { BookContext } from '../contexts/BookContext';
 
 const NewBookForm = () => {
-  const { addBook } = useContext(BookContext):
+  const { addBook } = useContext(BookContext);
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   return (
@@ -11,7 +11,7 @@ const NewBookForm = () => {
         onChange={e => setTitle(e.target.value)} required />
       <input type="text" placeholder="book author" value={author}
         onChange={e => setAuthor(e.target.value)} required />
-        <input type="submit" value="add book/>
+        <input type="submit" value="add book" />
     </form>
   );
 }
