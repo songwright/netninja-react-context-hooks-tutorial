@@ -1,9 +1,6 @@
 {
   "name": "contextapp",
   "version": "0.1.0",
-  "engines": {
-    "yarn": "1.x"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
